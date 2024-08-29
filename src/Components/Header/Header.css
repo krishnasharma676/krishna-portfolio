@@ -1,0 +1,28 @@
+/* Components/Header/Header.css */
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .squares {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+  }
+  
+  .square {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .bg-white {
+    background-color: white;
+  }
+  
+  
