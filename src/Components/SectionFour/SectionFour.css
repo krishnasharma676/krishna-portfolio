@@ -1,0 +1,25 @@
+.section-four {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .portfolio-item img:hover {
+    transform: scale(1.05);
+  }
+  

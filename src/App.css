@@ -1,0 +1,151 @@
+*{
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 500;
+  background-color: #000000;
+  color: white;
+}
+
+/* BACKGROUND COLOR */
+
+.bg-white {
+ background-color: white;
+}
+.bg-red {
+ background-color: red;
+}
+
+/* PADDING */
+.p-5{
+  padding: 5px;
+}
+.p-15{
+  padding: 15px;
+}
+.p-25{
+  padding: 15px;
+}
+.p-30{
+  padding: 30px;
+}
+
+/* PADDING LEFT */
+.pl-10 {
+  padding-left: 10px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+/* FONT SIZE */
+
+.fs-25{
+  font-size: 25px;
+}
+
+.fs-30{
+  font-size: 30px;
+}
+.fs-40{
+  font-size: 40px;
+}
+.fs-50{
+  font-size: 50px;
+}
+
+/* BORDER */
+.border-bold-2{
+  border: 2px solid red;
+}
+
+/* COLORS */
+
+.color-red {
+  color: red;
+}
+.color-gold {
+  color: gold;
+}
+
+/* HEIGHT */
+
+.hx-50{
+  height: 50%;
+}
+.hx-100{
+  height: 100%;
+}
+
+/* VIEW HEIGHT */
+
+.vh100{
+  height: 100vh;
+}
+
+/* MARGIN-BOTTOM */
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+/* FONT BOLD */
+
+.bold-700 {
+  font-weight: 700;
+}
+
+/* WIDTH */
+
+.wx-50 {
+  width: 50%;
+}
+.wx-60 {
+  width: 60%;
+}
+.wx-70 {
+  width: 70%;
+}
+.wx-80 {
+  width: 80%;
+}
+.wx-90 {
+  width: 90%;
+}
+.wx-100 {
+  width: 100%;
+}
+
+/* DISPLAY */
+
+.d-flex {
+  display: flex;
+}
+
+/* JUSTIFY CONTENET */
+.justify-content-center {
+  justify-content: center;
+}
+
+.button-style-primary {
+  background-color: red;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+.button-style-primary:hover {
+  background-color: white;
+  color: red;
+}
+
+.button-style-primary:active {
+  background-color: darkred;
+  color: black;
+  border-color: red;
+}
