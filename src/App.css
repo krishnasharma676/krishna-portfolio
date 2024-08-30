@@ -16,7 +16,7 @@ html {
  background-color: white;
 }
 .bg-red {
- background-color:#f05a7e;
+ background-color:#0D7C66;
 }
 .bg-grey{
   background-color: #222222;
@@ -61,13 +61,13 @@ html {
 
 /* BORDER */
 .border-bold-2{
-  border: 2px solid #f05a7e;
+  border: 2px solid #0D7C66;
 }
 
 /* COLORS */
 
 .color-red {
-  color: #f05a7e;
+  color: #0D7C66;
 }
 .color-gold {
   color: gold;
@@ -139,7 +139,7 @@ html {
 }
 
 .button-style-primary {
-  background-color: #f05a7e;
+  background-color: #0D7C66;
   text-decoration: none;
     color: white;
     border: 1px solid black;
@@ -155,13 +155,13 @@ html {
 
 .button-style-primary:hover {
   background-color: white;
-  color: #f05a7e;
+  color: #0D7C66;
 }
 
 .button-style-primary:active {
   background-color: darkred;
   color: black;
-  border-color: #f05a7e;
+  border-color: #0D7C66;
 }
 
 .heading-with-line {
@@ -178,3 +178,6 @@ html {
   height: 1px; /* Thickness of the line */
   background-color: white; /* Color of the line */
 }
+/* .main-content-section{
+  padding: 50px;
+} */

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css'; // Optional, if you prefer using a separate CSS file
 
-export const Footer = () => {
+export const Footer = (props) => {
   return (
     <footer className="footer">
       <div className="footer-content">
@@ -12,10 +12,11 @@ export const Footer = () => {
         <div className="footer-section links">
           <h2>Links</h2>
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <li onClick={props.onHomeClick}>Home</li>
+            <li onClick={props.onSkillsClick}>Skills</li>
+            <li onClick={props.onWhatIDoClick}>What I Do</li>
+            <li onClick={props.onProjectsClick}>Projects</li>
+            <li onClick={props.onContactClick}>Contact Us</li>
           </ul>
         </div>
         <div className="footer-section contact">
