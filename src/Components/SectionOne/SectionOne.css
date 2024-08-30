@@ -8,8 +8,73 @@
     justify-content: center; 
     align-items: start;
     text-align: center;
+    padding: 20px;
+    height: 90vh; /* Full viewport height minus the navbar/footer height */
+    width: 100%;
 }
 
-.sectionOne-main span, h1, p {
-    background: none;
+/* Adjust the content positioning and responsiveness */
+.wx-50 {
+    width: 50%;
+    padding: 20px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.border-bold-2 {
+    border-width: 2px;
+    border-style: solid;
+}
+
+.color-red {
+    color: red;
+}
+
+/* Adjust for medium-sized screens */
+@media (max-width: 768px) {
+    .wx-50 {
+        width: 100%;
+    }
+
+    .fs-40 {
+        font-size: 30px;
+    }
+
+    .p-30 {
+        padding: 15px;
+    }
+
+    .button-style-primary {
+        width: 100%;
+    }
+}
+
+/* Adjust for small screens */
+@media (max-width: 480px) {
+    .sectionOne-main {
+        padding: 0px;
+        height: auto; /* Automatically adjust the height for small screens */
+    }
+
+    .wx-50 {
+        width: 100%;
+    }
+
+    .fs-40 {
+        font-size: 24px;
+    }
+
+    .p-30 {
+        padding: 10px;
+    }
+
+    .button-style-primary {
+        font-size: 16px;
+    }
 }

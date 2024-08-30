@@ -1,30 +1,52 @@
 import React from 'react';
 import './SectionFive.css';
 import { HeadingTitle } from '../HeadingTitle/HeadingTitle';
-
+import imagebg from '../../images/imagebg.png'
 export const SectionFive = () => {
   return (
     <div className="section-five">
       <HeadingTitle heading="Contact Us" />
+      <p className="description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos eaque doloremque, nulla mollitia facilis 
+        temporibus ullam voluptates nostrum consequuntur! Fugiat vitae sint.
+      </p>
       <div className="content">
         <div className="contact-details">
-          <h2>Contact Details</h2>
-          <p>Phone: +123 456 7890</p>
-          <p>Email: contact@example.com</p>
-          <p>Address: 123 Main Street, City, Country</p>
+          <div className="detail">
+            <div className="icon">
+              <i className="fas fa-map-marker-alt"></i>
+            </div>
+            <div className="info">
+              <p>4671 Sugar Camp Road, Owatonna, Minnesota, 55060</p>
+            </div>
+          </div>
+          <div className="detail">
+            <div className="icon">
+              <i className="fas fa-phone-alt"></i>
+            </div>
+            <div className="info">
+              <p>561-455-2321</p>
+            </div>
+          </div>
+          <div className="detail">
+            <div className="icon">
+              <i className="fas fa-envelope"></i>
+            </div>
+            <div className="info">            
+              <p>example@gmail.com</p>
+            </div>
+          </div>
+          <div className='d-flex justify-content-center'>
+          <img src={imagebg}/>
+          </div>
         </div>
         <div className="contact-form">
-          <form className='section-five-form'>
-            <label htmlFor="name">Name:</label>
-            <input type="text" id="name" name="name" required />
-            
-            <label htmlFor="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-            
-            <label htmlFor="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            
-            <button type="submit" className="button-style-primary">Send Message</button>
+          <h2>Send Message</h2>
+          <form className="section-five-form">
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email" required />
+            <textarea placeholder="Type your Message..." rows="4" required></textarea>
+            <button className='button-style-primary'>SEND</button>
           </form>
         </div>
       </div>

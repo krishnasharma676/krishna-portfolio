@@ -17,6 +17,9 @@ html {
 .bg-red {
  background-color: red;
 }
+.bg-grey{
+  background-color: #222222;
+}
 
 /* PADDING */
 .p-5{
