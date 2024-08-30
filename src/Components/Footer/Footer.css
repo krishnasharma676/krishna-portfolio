@@ -1,5 +1,5 @@
 .footer {
-    background-color: #f05a7e;
+    background-color: #0D7C66;
     color: white;
     padding: 20px 0;
     font-family: sans-serif;
@@ -7,7 +7,7 @@
   
   .footer-content {
     display: flex;
-    background-color: #f05a7e;
+    background-color: #0D7C66;
     justify-content: space-around;
     color: white;
     align-items: flex-start;
@@ -16,7 +16,7 @@
   
   .footer-section {
     flex: 1;
-    background-color: #f05a7e;
+    background-color: #0D7C66;
     color: white;
     padding: 0 20px;
   }
@@ -26,26 +26,26 @@
     margin-bottom: 10px;
     border-bottom: 2px solid white;
     padding-bottom: 5px;
-    background-color: #f05a7e;
+    background-color: #0D7C66;
     color: white;
   }
   
   .footer-section p, .footer-section ul {
     margin: 0;
     padding: 0;
-    background-color: #f05a7e;
+    background-color: #0D7C66;
     color: white;
   }
   
   .footer-section ul {
     list-style-type: none;
-    background-color: #f05a7e;
+    background-color: #0D7C66;
     color: white;
   }
   
   .footer-section ul li {
     margin: 5px 0;
-    background-color: #f05a7e;
+    background-color: #0D7C66;
     color: white;
   }
   
@@ -54,7 +54,7 @@
     text-decoration: none;
     transition: color 0.3s;
     font-weight: 700;
-    background-color: #f05a7e;
+    background-color: #0D7C66;
   }
   
   .footer-section ul li a:hover {
