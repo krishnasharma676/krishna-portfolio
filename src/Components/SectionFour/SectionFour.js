@@ -14,7 +14,7 @@ export const SectionFour = () => {
       ];
     return (
         <div className="section-four">
-            <HeadingTitle heading="PORTFOLIO" background = 'bg-grey'/>
+            <HeadingTitle heading="PORTFOLIO"/>
             <div className="portfolio-grid">
                 {portfolioImages.map((image, index) => (
                     <div key={index} className="portfolio-item">

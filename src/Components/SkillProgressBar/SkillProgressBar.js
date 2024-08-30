@@ -1,27 +1,16 @@
 import React from 'react';
+import './Progressbar.css';
 
 const SkillProgressBar = ({ skill, progress }) => {
   return (
-    <div style={{ marginBottom: '15px' }}>
-      <div style={{ fontWeight: 'bold', marginBottom: '5px' }}>{skill}</div>
-      <div style={{ 
-          width: '100%', 
-          backgroundColor: '#fff', 
-          borderRadius: '5px', 
-          overflow: 'hidden' 
-      }}>
+    <div className="progress-container">
+      <div className="skill-title">{skill}</div>
+      <div className="progress-bar-background">
         <div 
-          style={{
-            width: `${progress}%`,
-            backgroundColor: '#ff0000',
-            textAlign: 'center',
-            padding: '1px 0',
-            color: 'white',
-            borderRadius: '5px'
-          }}
-          className='progrss-Container'
+          className="progress-bar"
+          style={{ width: `${progress}%` }}
         >
-          {progress}%
+          {/* <span className="progress-text">{progress}%</span> */}
         </div>
       </div>
     </div>

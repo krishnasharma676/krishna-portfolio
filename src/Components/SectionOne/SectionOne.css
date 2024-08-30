@@ -7,9 +7,7 @@
     flex-direction: column;
     justify-content: center; 
     align-items: start;
-    text-align: center;
-    padding: 20px;
-    height: 90vh; /* Full viewport height minus the navbar/footer height */
+    text-align: center;    
     width: 100%;
 }
 
@@ -33,13 +31,13 @@
 }
 
 .color-red {
-    color: red;
+    color: #f05a7e;
 }
 
 /* Adjust for medium-sized screens */
 @media (max-width: 768px) {
     .wx-50 {
-        width: 100%;
+        width: 90%;
     }
 
     .fs-40 {
@@ -71,7 +69,7 @@
     }
 
     .p-30 {
-        padding: 10px;
+        padding: 0px;
     }
 
     .button-style-primary {

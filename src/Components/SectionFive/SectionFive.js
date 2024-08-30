@@ -6,10 +6,6 @@ export const SectionFive = () => {
   return (
     <div className="section-five">
       <HeadingTitle heading="Contact Us" />
-      <p className="description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos eaque doloremque, nulla mollitia facilis 
-        temporibus ullam voluptates nostrum consequuntur! Fugiat vitae sint.
-      </p>
       <div className="content">
         <div className="contact-details">
           <div className="detail">
