@@ -3,7 +3,7 @@ import { HeadingTitle } from '../HeadingTitle/HeadingTitle'
 import './SectionThree.css'
 export const SectionThree = () => {
   return (
-    <div>
+    <div className='bg-white'>
         <HeadingTitle heading="WHAT I DO"/>
             <div className='p-30 d-flex-cards'>
                 <div className="card">
