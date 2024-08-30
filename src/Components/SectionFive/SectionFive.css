@@ -1,7 +1,7 @@
 .section-five {
     /* background: url('/path-to-your-background-image.jpg') no-repeat center center; */
     background-size: cover;
-    padding: 50px 20px;
+
     color: white;
     text-align: center;
   }
@@ -135,7 +135,7 @@
   
   @media (max-width: 480px) {
     .contact-details, .contact-form {
-      padding: 0 20px;
+      padding: 0px 51px 20px 29px;
     }
   
     .icon i {

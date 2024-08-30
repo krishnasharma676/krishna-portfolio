@@ -1,8 +1,7 @@
 .section-three {
     background-color: #1a1a1a;
     color: white;
-    text-align: center;
-    padding: 50px 20px; /* Reduced padding on smaller screens */
+    text-align: center;    
   }
   
   .card {
@@ -24,7 +23,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto 20px;
-    color: #ff4141;
+    color: #f05a7e;
     font-size: 24px;
   }
   
@@ -36,6 +35,7 @@
   .card p {
     font-size: 14px;
     color: #aaa;
+    background: #222222;
   }
   
   .d-flex-cards {
@@ -49,9 +49,9 @@
     justify-content: space-between;
   }
   
-  .p-30 {
-    padding: 30px;
-  }
+    /* .p-30 {
+      padding: 30px;
+    } */
   
   .vh100 {
     min-height: 100vh;
