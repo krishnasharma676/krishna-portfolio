@@ -6,6 +6,8 @@ import { useState, useEffect, useRef  } from 'react';
 import { SectionTwo } from './Components/SectionTwo/SectionTwo';
 import { SectionThree } from './Components/SectionThree/SectionThree';
 import { SectionFour } from './Components/SectionFour/SectionFour';
+import { SectionFive } from './Components/SectionFive/SectionFive';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const [activeSection, setActiveSection] = useState('section1');
@@ -15,6 +17,7 @@ function App() {
     section2: useRef(null),
     section3: useRef(null),
     section4: useRef(null),
+    section5: useRef(null),
   };
 
   const handleSelect = (section) => {
@@ -59,6 +62,10 @@ function App() {
       <div ref={sectionRefs.section4} id="section4">
         <SectionFour/>
       </div>
+      <div ref={sectionRefs.section5} id="section5">
+        <SectionFive/>
+      </div>
+      <Footer/>
     </>
   );
 }

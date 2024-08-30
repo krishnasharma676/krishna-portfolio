@@ -1,5 +1,4 @@
-.section-four {
-    background-color: #1a1a1a;
+.section-four {    
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -10,8 +9,11 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     padding: 20px;
+    background-color: #222222;
   }
-  
+  .portfolio-item {
+    background-color: #222222;
+  }
   .portfolio-item img {
     width: 100%;
     height: auto;
