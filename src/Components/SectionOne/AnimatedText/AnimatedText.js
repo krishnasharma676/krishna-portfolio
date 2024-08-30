@@ -6,7 +6,10 @@ export const AnimatedText = ({ texts, fontSize }) => {
     const [currentTextIndex, setCurrentTextIndex] = useState(0);
 
     useEffect(() => {
-        if (isRestarting) return;
+        // Clear the text and restart the animation
+        setWords([]);
+        setIsRestarting(false);
+        setCurrentTextIndex(0);
 
         const wordArray = texts[currentTextIndex].split('');
         const timeouts = [];
@@ -25,7 +28,7 @@ export const AnimatedText = ({ texts, fontSize }) => {
         });
 
         return () => timeouts.forEach(timeout => clearTimeout(timeout));
-    }, [texts, currentTextIndex, isRestarting]);
+    }, [texts, currentTextIndex]);
 
     useEffect(() => {
         if (isRestarting) {
