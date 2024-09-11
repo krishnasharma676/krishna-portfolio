@@ -26,14 +26,13 @@ export const Footer = (props) => {
           <p>Address: 123 Main Street, City, Country</p>
         </div>
       </div>
-      {/* <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Your Company. All rights reserved.</p>
-        <div className="social-media">
-          <a href="#" className="social-icon">Facebook</a>
-          <a href="#" className="social-icon">Twitter</a>
-          <a href="#" className="social-icon">Instagram</a>
+      <div className="footer-bottom">
+        <div className="social-media bg-red">
+          <a href="#" className="social-icon fs-30"><i className="fab fa-instagram"></i></a>
+          <a href="#" className="social-icon"><i className="fab fa-linkedin-in"></i></a>
+          <a href="#" className="social-icon"><i className="fab fa-github"></i></a>
         </div>
-      </div> */}
+      </div>
     </footer>
   );
 };

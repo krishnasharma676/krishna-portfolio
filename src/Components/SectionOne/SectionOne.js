@@ -2,7 +2,7 @@ import React from 'react'
 import "./SectionOne.css"
 import { AnimatedText } from './AnimatedText/AnimatedText'
 export const SectionOne = (props) => {
-  const text = ["Frontend Engineer.", "Image Editor"]
+  const text = ["Frontend Engineer.", "Editor.", 'Web Developer']
 
   return (
     <div className='vh90 sectionOne-main'>
