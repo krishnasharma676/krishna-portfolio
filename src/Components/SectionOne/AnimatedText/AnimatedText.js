@@ -1,11 +1,19 @@
 import React, { useEffect, useState } from 'react';
 
-export const AnimatedText = ({ texts, fontSize }) => {
+export const AnimatedText = ({ texts, fontSize, animate }) => {
     const [words, setWords] = useState([]);
     const [isRestarting, setIsRestarting] = useState(false);
     const [currentTextIndex, setCurrentTextIndex] = useState(0);
 
     useEffect(() => {
+        if (!animate) {
+            // Reset state when not in view
+            setWords([]);
+            setIsRestarting(false);
+            setCurrentTextIndex(0);
+            return;
+        }
+
         if (isRestarting) return;
 
         const wordArray = texts[currentTextIndex].split('');
@@ -25,7 +33,7 @@ export const AnimatedText = ({ texts, fontSize }) => {
         });
 
         return () => timeouts.forEach(timeout => clearTimeout(timeout));
-    }, [texts, currentTextIndex, isRestarting]);
+    }, [texts, currentTextIndex, isRestarting, animate]);
 
     useEffect(() => {
         if (isRestarting) {

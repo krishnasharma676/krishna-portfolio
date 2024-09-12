@@ -9,7 +9,7 @@ export const SectionOne = (props) => {
 
   // Use useInView to track the visibility of the section
   const { ref, inView } = useInView({
-    triggerOnce: true, // Trigger animation only once
+    triggerOnce: false, // Allow multiple triggers on scroll
     threshold: 0.1,    // When 10% of the section is visible
   });
 
@@ -52,7 +52,7 @@ export const SectionOne = (props) => {
         <motion.div
           variants={textVariants}
         >
-          <AnimatedText texts={text} fontSize="20px" />
+          <AnimatedText texts={text} fontSize="20px" animate={inView} />
         </motion.div>
         <p>{props.para}</p>
         <motion.div
@@ -63,4 +63,4 @@ export const SectionOne = (props) => {
       </div>
     </motion.div>
   );
-}
+};
