@@ -16,7 +16,7 @@ html {
  background-color: white;
 }
 .bg-red {
- background-color:#0D7C66;
+ background-color:#2b4162;
 }
 .bg-grey{
   background-color: #222222;
@@ -61,13 +61,13 @@ html {
 
 /* BORDER */
 .border-bold-2{
-  border: 2px solid #0D7C66;
+  border: 2px solid #2b4162;
 }
 
 /* COLORS */
 
 .color-red {
-  color: #0D7C66;
+  color: #2b4162;
 }
 .color-gold {
   color: gold;
@@ -139,7 +139,7 @@ html {
 }
 
 .button-style-primary {
-  background-color: #0D7C66;
+  background-color: #2b4162;
   text-decoration: none;
     color: white;
     border: 1px solid black;
@@ -155,13 +155,13 @@ html {
 
 .button-style-primary:hover {
   background-color: white;
-  color: #0D7C66;
+  color: #2b4162;
 }
 
 .button-style-primary:active {
   background-color: darkred;
   color: black;
-  border-color: #0D7C66;
+  border-color: #2b4162;
 }
 
 .heading-with-line {

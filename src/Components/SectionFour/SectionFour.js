@@ -18,7 +18,7 @@ export const SectionFour = () => {
   };
 
   const { ref, inView } = useInView({
-    threshold: 0.1,   // Adjust this value as needed
+    threshold: 0.1,
   });
 
   return (
